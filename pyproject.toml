@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cocotbext-axis_transfer"
+version = "0.1.0"
+description = "An extension of the cocotb and cocotbext-axi libraries for detailed Axi Stream bus transfers"
+authors = ["Carlos Megías <narg@ugr.es>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["VHDL", "AXIS", "simulation", "test"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+cocotb = "^1.6.0"
+cocotbext-axi = "^0.1.12"
+cocotb-bus = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
