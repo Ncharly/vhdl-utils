@@ -1,4 +1,4 @@
-# Cocotbext-axis-transfer
+# VHDL components with Cocotb simulations and library
 
 ## Introduction
 
@@ -9,7 +9,7 @@ Collection of VHDL components. All these components have been designed to be par
 ### capturator module
 AXIS module that detects the init of a frame and triggers a pulse for one cycle. It implements the interface AXIS as input (not all the signals are needed, but they me be added to completely acommodate the interface).
 
-## Simulation
+## Simulation: /tests
 
 Two things are needed: the python environment and the simulator.
 
@@ -27,7 +27,7 @@ to install all the dependencies of the project.
 
 ### Simulators
 
-The simulator indicated in the test files (makefile) for the VHDL components is [GHDL](https://github.com/ghdl/ghd), but another can be installed. Similar for happens to simulate verilog components.
+The simulator indicated in the test files (makefile) for the VHDL components is [GHDL](https://github.com/ghdl/ghd), but another can be installed. Similar happens when Verilog components are simulated.
 
 
 Once the Python environment is set and the simulator is installed, the testbenches are ready to run.
